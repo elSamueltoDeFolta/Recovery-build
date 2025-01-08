@@ -6,19 +6,19 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb'
+        default: 'https://github.com/SHRP/manifest'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'android-14.0'
+        default: 'v3_11.0'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/elSamueltoDeFolta/device_xiaomi_stone_twrp'
+        default: 'https://github.com/elSamueltoDeFolta/VictoriaVDeFalsa_Stone'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'kami'
+        default: 'VictoriaV'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_stone'
+        default: 'shrp_stone'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
